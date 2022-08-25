@@ -13,7 +13,7 @@ app.set("view engine", "ejs");
 
 app.use(express.static("./public"));
 
-app.use("/", routes());
+app.use("/", routes);
 
 // remove for sample files
 app.use((req, res, next) => {
