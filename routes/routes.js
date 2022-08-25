@@ -13,13 +13,5 @@ router.get("/example", (req, res) => {
 // adds dogs route
 
 // add main route
-router.get("/main", (req, res) => {
-  return res.render("main", {
-    title: "EJS Example from Parts",
-    message: "Hello Template built in parts",
-    showMsg: true,
-    headingOne: "Page made from parts",
-  });
-});
 
 module.exports = router;
